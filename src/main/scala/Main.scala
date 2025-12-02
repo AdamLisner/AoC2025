@@ -1,10 +1,10 @@
 import day01.SecretEntrance
+import day2.GiftShop
 
 @main def run(): Unit = {
-  val solver = new SecretEntrance()
-  val password = solver.solvePart1()
+  val solver = new GiftShop()
+  val password = solver.solve()
   println(s"The password is: $password")
-  val password2 = solver.solvePart2()
-  println(s"The password for part 2 is: $password2")
+
 }
 
