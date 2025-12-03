@@ -1,7 +1,7 @@
-import day2.GiftShop
+import day03.Lobby
 
 object Main extends App {
-  val solver = new GiftShop()
+  val solver = new Lobby()
   val password = solver.solve()
   println(s"The password is: $password")
 }
