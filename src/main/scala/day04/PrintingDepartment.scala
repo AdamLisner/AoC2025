@@ -13,8 +13,7 @@ enum Item(val symbol: Char) {
 object Item {
   def fromChar(c: Char): Item = c match {
     case '@' => Item.ROLL
-    case '.' => Item.NIL
-    case other => throw new IllegalArgumentException(s"Unknown item symbol: '$other'")
+    case '.' | _ => Item.NIL
   }
 }
 
