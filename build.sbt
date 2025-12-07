@@ -9,7 +9,6 @@ libraryDependencies += "org.scalatestplus" %% "mockito-5-12" % "3.2.19.0" % "tes
 libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.19.0" % "test"
 
 wartremoverWarnings ++= Seq(
-  Wart.AsInstanceOf,
   Wart.EitherProjectionPartial,
   Wart.IsInstanceOf,
   Wart.Null,
